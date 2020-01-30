@@ -1,0 +1,30 @@
+.Header {
+  height: 48px;
+  /* background-color: blue; */
+  padding: 8px;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.logo {
+  height: 30px;
+  width: 100px;
+  margin: 8px;
+}
+
+.HeaderSearch {
+  padding: 8px;
+  width: 220px;
+  display: inline-block;
+  float: right;
+}
+
+.search__input {
+  border-radius: 3px;
+  padding: 4px;
+}
+
+.search__button {
+  background: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
