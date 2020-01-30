@@ -9,7 +9,6 @@ export default class Contents extends Component {
     movie: []
   }
   
-  
   test1() {
     axios.get('/MovieList').then(res=>{
       const movie =res.data;
@@ -39,7 +38,7 @@ export default class Contents extends Component {
           //       title={movie.title}
           //       contents={movie.contents} 
           //       date={movie.date} 
-          //       img={movie.img} 
+          //       img={"https://storage.cloud.google.com/gildydtjd/" + movie.movieThumbnailName} 
           //     />
 
               sample.map(movie => {
