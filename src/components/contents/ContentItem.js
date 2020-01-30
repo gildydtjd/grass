@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./contents.css";
 
 export default class ContentItem extends Component {
   render() {
